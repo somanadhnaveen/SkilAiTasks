@@ -10,7 +10,7 @@ app.get('/', function(req, res){
 })
 
 app.post('/',function(req,res){
-    let text = req.body.text
+    let text = req.body.txt
     console.log(text)
     if(text == 'Hi')
     {
